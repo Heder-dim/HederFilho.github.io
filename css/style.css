@@ -92,6 +92,8 @@
     flex: 1 1 0;
 }
 
+
+
 #email-container ion-icon {
     color: var(--main-color);
     font-size: 20px;
@@ -103,6 +105,10 @@
     color: var(--main-text-color);
     text-decoration: none;
     max-width: 225px;
+}
+
+#email:hover {
+    text-decoration: underline;
 }
 
 #name {
@@ -226,8 +232,11 @@
         margin-bottom: 40px;
         text-align: left;
     }
+
     .skills-box i {
         font-size: 60px;
     }
+
+
 
 }
