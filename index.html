@@ -4,11 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
+    <title>Portifolio Heder</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!--devIconFonts-->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 
 <body>
-    <h1>Heder Filho Silva</h1>
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Heder Filho Silva Santos</h2>
+            <img id="bio-image" src="img/b38cb443bff8ba204fd6c2c075135d3e.jpg" alt="Heder Filho">
+            <p>Olá meu nome é Heder Filho e atualmente sou <span class="highlight">Estudante de ciência da
+                    Cumputação</span>.</p>
+            <p class="welcome-text">Seja bem-vindo!</p>
+            <ul id="social-container">
+                <li><a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a
+                    href="mailto:hederfilho2050@gmail.com">hederfilho2050@gmail.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">Heder Filho</h1>
+            <p id="title"><span class="highlight">Desenvolvedor de software</span></p>
+            <p class="description">Sou um Estudante de ciência da Computação, atualmente no 5° periodo, um aspirante a
+                game developer kk. Gosto de
+                participar de projetos desde a <span class="highlight">definição de regras e levantamento de
+                    requisitos</span> até o <span class="highlight">deploy da aplicação</span>.</p>
+            <p class="classdescription">Tenho preferencia por <span class="highlight">back-end</span>,<span
+                    class="highlight"> mobile</span> e <span class="highlight">unity 2D e 3D</span>.</p>
+            <a href="#" id="btn-projects"> <ion-icon name="share-social-outline"></ion-icon><span>Ver
+                    projetos</span></a>
+            <h2 id="skills-section-title">Minhas Skills</h2>
+            <p class="description">Tecnologias que utilizo</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-csharp-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Mobile</p>
+                    <i class="devicon-csharp-plain colored"></i>
+                    <i class="devicon-unity-plain colored"></i>
+                    <i class="devicon-java-plain colored"></i>
+                    <i class="devicon-android-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Database</p>
+                    <i class="devicon-mongodb-plain colored"></i>
+                    <i class="devicon-mysql-original colored"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
