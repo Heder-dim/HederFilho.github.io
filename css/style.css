@@ -114,18 +114,25 @@
 #name {
     font-size: 42px;
     margin-bottom: 15px;
+    animation-duration: 2s;
+    animation-name: slidein;
 }
 
 #title {
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: bold;
+    animation-duration: 2s;
+    animation-name: slidein;
 }
 
 .description {
     max-width: 75%;
     margin-bottom: 10px;
+    animation-duration: 3s;
+    animation-name: slidein;
 }
+
 
 #btn-projects {
     font-weight: bold;
@@ -189,6 +196,21 @@
     margin-right: 10px;
 }
 
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+
+
 /*Mobile*/
 @media(max-width: 450px) {
 
@@ -239,4 +261,21 @@
 
 
 
+}
+
+.textInit {
+animation-duration: 3s;
+animation-name: slidein;
+}
+
+@keyframes slidein {
+from {
+    margin-left: 100%;
+    width: 300%;
+}
+
+to {
+    margin-left: 0%;
+    width: 100%;
+}
 }
